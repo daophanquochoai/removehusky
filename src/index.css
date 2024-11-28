@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.title-shortcut {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.shortcut {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.shadow_primary{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.info-background{
+    background-image: url("https://demo.templatesjungle.com/foodfarm/images/vegetablespattern.svg");
+}
+.policy-background{
+    background-image: url("https://demo.templatesjungle.com/foodfarm/images/bg-vegetables.jpg");
+    background-position: center;
+}
+/* customer radio */
+.ant-radio-wrapper-checked .ant-radio-inner{
+    background: rgb(107,178,82) !important;
+    border: rgb(107,178,82) !important;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-slider .ant-slider-track {
+    box-shadow: 0 0 0 2px rgb(107,178,82) !important;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-slider .ant-slider-track {
+    background-color:  rgb(107,178,82);
+    border-radius: 2px;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-slider .ant-slider-handle::after {
+    box-shadow: 0 0 0 2px  rgb(107,178,82);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-slider .ant-slider-handle:focus::after{
+    box-shadow: 0 0 0 2px  rgb(107,178,82);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-slider:hover .ant-slider-track{
+    background-color:  rgb(107,178,82);
+}
+
+/* panigation */
+:where(.css-dev-only-do-not-override-5wsri9).ant-pagination .ant-pagination-item-active a {
+    color:  rgb(107,178,82);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-pagination .ant-pagination-item-active{
+    border-color: rgb(107,178,82);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-pagination .ant-pagination-item-active:hover {
+    border-color: rgb(107,178,82);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-pagination .ant-pagination-item-active:hover a{
+    color:  rgb(107,178,82);
+}
+
+/*shadow*/
+.shadow_form{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/* shadow bottom */
+.shadow-bottom {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+/*!* shortcut *!*/
+/*.shortcut {*/
+/*    display: -webkit-box;*/
+/*    -webkit-box-orient: vertical;*/
+/*    -webkit-line-clamp: 6;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*}*/
+
+/*  loading */
+.ant-spin-text{
+    color:   rgba(107,178,82,0.88) !important;
+    font-size: 18px !important;
+}
+.ant-spin-dot-item{
+    background:  rgba(107,178,82,0.88)  !important;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-spin-fullscreen {
+    background: white !important;
+}
+
+/*button save edit*/
+:where(.css-dev-only-do-not-override-5wsri9).ant-switch.ant-switch-checked{
+    @apply bg-green-500
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled){
+    @apply bg-green-500
+}
+
+:where(.css-dev-only-do-not-override-5wsri9).ant-btn-variant-solid {
+    color: #fff;
+    background: rgba(107, 178, 82, 0.88) !important;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-dev-only-do-not-override-5wsri9).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover {
+    color: rgba(107, 178, 82, 0.88) !important;;
+    border-color:  rgba(107, 178, 82, 0.88) !important;;
+    background: #ffffff;
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: rgba(107, 178, 82, 0.88);
+    background-color: rgba(107, 178, 82, 0.88);
+}
+.ant-radio-wrapper:hover :where(.css-dev-only-do-not-override-5wsri9).ant-radio-wrapper, :where(.css-dev-only-do-not-override-5wsri9).ant-radio-wrapper:hover .ant-radio-inner {
+    border-color: rgba(107, 178, 82, 0.88);
+}
+
+:where(.css-dev-only-do-not-override-5wsri9).ant-table-wrapper .ant-table-tbody .ant-table-row.ant-table-row-selected >.ant-table-cell {
+    background:  rgba(107, 178, 82, 0.78);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-checkbox-checked .ant-checkbox-inner {
+    background-color: rgba(107, 178, 82, 0.88);
+    border-color: rgba(107, 178, 82, 0.88);
+}
+:where(.css-dev-only-do-not-override-5wsri9).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+    background-color: rgba(107, 178, 82, 0.58);
+}
+
+/*select*/
+:where(.css-dev-only-do-not-override-ni1kz0).ant-select-outlined:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+    border-color: rgba(107, 178, 82, 0.88);
+}
+.ant-select-focused:where(.css-dev-only-do-not-override-ni1kz0).ant-select-outlined:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector{
+    border-color: rgba(107, 178, 82, 0.88);
+    box-shadow: 0 0 0 2px rgba(107, 178, 82, 0.28);
+}
+:where(.css-dev-only-do-not-override-ni1kz0).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    border-color: rgba(107, 178, 82, 0.88);
+}
+/* chexk box */
+:where(.css-dev-only-do-not-override-ni1kz0).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+    background-color: rgb(107, 178, 82) !important;
+}
+:where(.css-dev-only-do-not-override-ni1kz0).ant-switch.ant-switch-checked{
+    background-color: rgb(107, 178, 82) !important;
+}
